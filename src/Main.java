@@ -1,3 +1,5 @@
+import java.util.SortedMap;
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -65,5 +67,25 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
     }
+    public static void task6 () {
+        System.out.println("Задача 6");
+        var boxerWeight1 = 78.2;
+        var boxerWeight2 = 82.7;
+        var totalWeight = boxerWeight1 + boxerWeight2;
+        System.out.println("Общий вес бойцов " + totalWeight + " кг");
+        var differrenceWeight = boxerWeight2 - boxerWeight1;
+        System.out.println("Разница между весами бойцов " + differrenceWeight + " кг");
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        var boxerWeight1 = 78.2;
+        var boxerWeight2 = 82.7;
+        var differrenceWeight = boxerWeight2 - boxerWeight1;
+        System.out.println("Разница между весами бойцов " + differrenceWeight + " кг");
+        var differenceWeight = boxerWeight2 % boxerWeight1;
+        System.out.println("Второй боец тяжелее на " + differrenceWeight + " кг");
+    }
+    public static void task8 () {
 
+    }
 }
