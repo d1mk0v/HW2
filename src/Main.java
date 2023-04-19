@@ -81,7 +81,15 @@ public class Main {
         var differenceWeight = boxerWeight2 % boxerWeight1;
         System.out.println("Второй боец тяжелее на " + differenceWeight + " кг");
     }
-    public static void task8 () {
+        public static void task8 () {
+        System.out.println("Задача 8");
+        var CommonWorkingHours1 = 640;
+        var oneEmployeeWorkingHours = 8;
+        var numberEmployees = CommonWorkingHours1 / oneEmployeeWorkingHours;
+        System.out.println("Всего работников в компании - " + numberEmployees + " человек");
+        var numberEmployees1 = numberEmployees + 94;
+        var commonWorkingHours2 = numberEmployees1 * oneEmployeeWorkingHours;
+        System.out.println("Если в компании работает " + numberEmployees1 + " человек, то всего " + commonWorkingHours2 + " часов работы может быть поделено между сотрудниками");
 
     }
 }
