@@ -17,7 +17,7 @@ public class Main {
 
     public static void task2 () {
         System.out.println("Задача 2");
-        var dog = 8;
+        var dog = 8.0;
         dog = dog + 4;
         System.out.println(dog);
         var cat = 3.6;
@@ -30,7 +30,7 @@ public class Main {
 
     public static void task3 () {
         System.out.println("Задача 3");
-        double dog = 8;
+        var dog = 8.0;
         dog = dog - 3.5;
         System.out.println(dog);
         var cat = 3.6;
