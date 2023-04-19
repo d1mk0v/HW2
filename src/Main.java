@@ -9,7 +9,6 @@ public class Main {
         task7();
         task8();
     }
-
     public static void task1 () {
         System.out.println("Задача 1");
         var dog = 8.0;
@@ -19,7 +18,6 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
     }
-
     public static void task2 () {
         System.out.println("Задача 2");
         var dog = 8.0;
@@ -32,7 +30,6 @@ public class Main {
         paper = paper + 4;
         System.out.println(paper);
     }
-
     public static void task3 () {
         System.out.println("Задача 3");
         var dog = 8.0;
@@ -90,6 +87,5 @@ public class Main {
         var numberEmployees1 = numberEmployees + 94;
         var commonWorkingHours2 = numberEmployees1 * oneEmployeeWorkingHours;
         System.out.println("Если в компании работает " + numberEmployees1 + " человек, то всего " + commonWorkingHours2 + " часов работы может быть поделено между сотрудниками");
-
     }
 }
