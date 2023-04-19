@@ -7,7 +7,7 @@ public class Main {
     public static void task1 () {
         System.out.println("Задача 1");
         var dog = 8.0;
-        System.out.println (dog);
+        System.out.println(dog);
         var cat = 3.6;
         System.out.println(cat);
         var paper = 763789;
@@ -16,6 +16,14 @@ public class Main {
 
     public static void task2 () {
         System.out.println("Задача 2");
-       // ... // Пишем код для задачи 2
+        var dog = 8;
+        dog = dog + 4;
+        System.out.println(dog);
+        var cat = 3.6;
+        cat = cat + 4;
+        System.out.println(cat);
+        var paper = 763789;
+        paper = paper + 4;
+        System.out.println(paper);
     }
 }
